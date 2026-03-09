@@ -1,0 +1,7 @@
+services:
+    zirochka-k-pop-gallery:
+        container_name: zirochka_k_pop_gallery_container
+        build: ./
+        restart: unless-stopped
+        ports:
+            - "3000:3000"
