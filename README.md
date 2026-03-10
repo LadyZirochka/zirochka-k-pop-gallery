@@ -102,7 +102,7 @@ npm install
 ```ini
 SESSION_SECRET=your_session_secret_here
 ADMIN_USERNAME=your_admin_username
-ADMIN_PASSWORD=your_bcrypt_hashed_password
+ADMIN_HASHED_PASS=your_bcrypt_hashed_password
 ```
 
 ### 4️⃣ Launch the server
